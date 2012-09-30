@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	padding:0;
+	margin:0;	
+}
+
+body{
+	background-color:lightgray;	
+}
+
+div.menu ul{
+	list-style-type:none;
+	width:550px;
+	margin:0 auto;
+}
+
+div.menu li{
+	background-color:black;
+	float:left;
+	border-left:2px solid red;
+	position:relative;
+}
+
+div.menu li:first-child{
+	border-left:none;	
+}
+
+div.menu li:hover{
+	background-color:#666;
+}
+
+div.menu a{
+	text-decoration:none;
+	font-size:18px;
+	font-family:"Comic Sans MS", cursive;
+	padding:7px 15px;
+	display:block;
+	color:white;
+	text-transform:capitalize;
+}
+
+div.menu li ul{
+	display:none;
+	width:auto;
+	position:absolute;
+	left:0;
+	top:38px;
+	white-space:nowrap;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+div.menu li li{
+	float:none;
+	border-left:none;
+	border-top:2px solid red;
+}
+div.menu #li{
+	padding:12px 7px;	
+}
+</style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">h</a>
+            	<ul>
+                	<li><a href="#">o</a></li>
+                    <li><a href="#">m</a></li>
+                    <li><a href="#">e</a></li>
+                </ul>
+            </li>
+            <li><a href="#">html</a></li>
+            <li><a href="#">c</a>
+            	<ul>
+                	<li><a href="#">s</a></li>
+                    <li><a href="#">s </a></li>
+                </ul>
+            </li>
+            <li><a href="#">css 3</a></li>
+            <li><a href="#">a</a>
+            	<ul class="menu2">
+                	<li><a href="#">b</a></li>
+                    <li><a href="#">o</a></li>
+                    <li><a href="#">u</a></li>
+                    <li><a href="#">t</a></li>
+                    <li id="li"><a href="#"></a></li>
+                    <li><a href="#">u</a></li>
+                    <li><a href="#">s</a></li>
+				</ul>
+            </li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+    </div>
+</body>
+</html>

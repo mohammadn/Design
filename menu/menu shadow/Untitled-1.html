@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	padding:0;
+	margin:0;	
+}
+body{
+	background-color:black;	
+}
+div.menu{
+	width:1000px;
+	margin:0 auto;
+}
+div.menu ul{
+	list-style-type:none;
+}
+div.menu li{
+	margin-top:11px;
+	float:left;
+	background-image:url('backhi.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+div.menu li:hover {
+	background-position:center -65px;
+}
+div.menu li:hover a{
+	color:white;
+}
+div.menu a{
+	text-decoration:none;
+	display:block;
+	padding:5px 60px 24px;
+	color:#ddd;
+	text-transform:capitalize;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div.menu li ul{
+	display:none;
+}
+div.menu li:hover ul{
+	display:block;
+}
+div.menu li li a{
+	padding:10px;
+}
+div.menu li li{
+	float:none;
+	text-align:center;
+	padding:none;
+}
+div.menu li:hover li a{
+	color:#ddd;
+}
+div.menu li li:hover a{
+	color:white;
+}
+</style>
+</head>
+
+<body>
+<div class="menu">
+	<ul>
+    	<li><a href="#">home</a></li>
+        <li><a href="#">html</a>
+        	<ul>
+            	<li><a href="#">html 1.1</a></li>
+                <li><a href="#">html 2.02</a></li>
+                <li><a href="#">html 3.4</a></li>
+                <li><a href="#">html 4.01</a></li>
+                <li><a href="#">html 5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact us</a></li>
+    </ul>
+</div>
+</body>
+</html>

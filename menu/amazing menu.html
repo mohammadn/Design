@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	background-color:black;
+}
+div.menu {
+	width:500px;
+	margin:0 auto;
+}
+div.menu li {
+	float:left;
+	list-style-type:none;
+	height:25px;
+	overflow:hidden;
+	background-color:black;
+}
+div.menu a {
+	color:white;
+	font-family:'ColaborateBoldRegular', Arial, sans-serif;
+	font-size:13px/27px;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:2px 20px;
+	display:block;
+}
+div.menu li:hover div {
+	margin-top:-21px;
+	-webkit-animation-name:box;
+	-webkit-animation-duration:0.2s;
+	-webkit-animation-timing-function:linear;
+}
+@-webkit-keyframes box {
+ 0% {
+ margin-top:0px;
+}
+ 100% {
+ margin-top:-19px;
+}
+}
+div.menu li:hover a {
+	color:#aaa;
+}
+</style>
+</head>
+
+<body>
+<div class="menu">
+	<ul>
+		<li>
+			<div>
+				<a href="#">services<dl />services</a>
+			</div>
+		</li>
+		<li>
+			<div>
+				<a href="#">work<dl />work</a>
+			</div>
+		</li>
+		<li>
+			<div>
+				<a href="#">home<dl />home</a>
+			</div>
+		</li>
+		<li>
+			<div>
+				<a href="#">company<dl />company</a>
+			</div>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
